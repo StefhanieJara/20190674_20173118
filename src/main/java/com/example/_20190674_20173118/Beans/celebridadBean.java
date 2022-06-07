@@ -4,7 +4,24 @@ public class celebridadBean {
     private int actor_id;
     private String first_name;
     private String last_name;
+    private int numero_pelis;
+    private int numero_categoria;
 
+    public int getNumero_pelis() {
+        return numero_pelis;
+    }
+
+    public void setNumero_pelis(int numero_pelis) {
+        this.numero_pelis = numero_pelis;
+    }
+
+    public int getNumero_categoria() {
+        return numero_categoria;
+    }
+
+    public void setNumero_categoria(int numero_categoria) {
+        this.numero_categoria = numero_categoria;
+    }
 
     public int getActor_id() {
         return actor_id;
