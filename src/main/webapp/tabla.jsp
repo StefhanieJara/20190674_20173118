@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: stefh
+  Date: 6/06/2022
+  Time: 20:41
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page import="com.example._20190674_20173118.Beans.celebridadBean" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <jsp:useBean id="listaCelebridad" scope="request" type="java.util.ArrayList<com.example._20190674_20173118.Beans.celebridadBean>" />
